@@ -1,34 +1,24 @@
 import 'package:flutter/material.dart';
 
-class listSimple extends StatefulWidget {
+class listRibet extends StatefulWidget {
   @override
-  listSimpleState createState() => listSimpleState();
+  listRibetState createState() => listRibetState();
 }
 
-class listSimpleState extends State<listSimple> {
+class listRibetState extends State<listRibet> {
   @override
   // Daftar Judul Di Sini
   var titleList = [
-    "Monstera",
-    "Aloe Vera",
-    "Sanseveira",
-    "Pothos",
-    "Cactus",
-    "Spider Plant",
-    "Jade Plant"
-        "Peace Lily"
+    "Alocasia",
+    "Fiddle Leaf Fig",
+    "Zebra Plant",
   ];
 
   // Daftar Nama Gambar Di Sini
   var imgList = [
-    "assets/images/1. monstera.jpg",
-    "assets/images/1. aloevera.jpg",
-    "assets/images/1. sansevieria.jpg",
-    "assets/images/1. pothos.jpg",
-    "assets/images/1. cactus.jpg",
-    "assets/images/1. spider plant.jpg",
-    "assets/images/1. jade plant.jpg"
-        "assets/images/1. peace lily.jpg"
+    "assets/images/2. alocasia.jpg",
+    "assets/images/2. Fiddle leaf fig.jpg",
+    "assets/images/2. zebra plant.jpg",
   ];
 
   @override
