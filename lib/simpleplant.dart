@@ -27,8 +27,7 @@ class listSimpleState extends State<listSimple> {
     "assets/images/1. pothos.jpg",
     "assets/images/1. cactus.jpg",
     "assets/images/1. spider plant.jpg",
-    "assets/images/1. jade plant.jpg"
-        "assets/images/1. peace lily.jpg"
+    "assets/images/1. peace lily.jpg"
   ];
 
   @override
@@ -44,7 +43,7 @@ class listSimpleState extends State<listSimple> {
               color: Colors.white, fontWeight: FontWeight.w600, fontSize: 21),
         ),
         elevation: 10,
-        backgroundColor: Colors.grey[500],
+        backgroundColor: Colors.cyan,
       ),
       // Main List View dengan Builder
       body: ListView.builder(
